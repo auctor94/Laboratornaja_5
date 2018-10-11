@@ -1,0 +1,64 @@
+body {
+    background-color:  #44a882;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+
+}
+
+label {
+    font-family: 'Lobster',cursive;
+    font-size: 15px;
+    float:left;
+    color: #0e2b2e;
+}
+
+.field {    /* для выравнивания полей формы */
+    clear:both; /*Отменяет обтекание элемента одновременно с правого и левого края. */
+margin: 0 auto;
+    line-height:25px;
+}
+
+.input-style{
+    opacity: 0.7;
+    border-radius: 5px;
+    padding: 5px; 
+    margin-bottom:20px;
+    width:280px;
+    margin-left: 50px;
+}
+
+.field {
+    display: table;
+  }
+  .field .row {
+    display: table-row;
+  }
+  .field .row .cell {
+    min-width: 80px;
+    display: table-cell;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  INPUT.text {
+    border: 3px solid #ccc; /* Исходная рамка вокруг поля */
+    width: 80%; /* Ширина поля */ 
+    opacity: 0.7;
+    border-radius: 5px;
+    padding: 5px; 
+    margin-bottom:20px;
+    width:280px;
+    margin-left: 50px;
+   }
+.focus {
+    border: 3px solid #39c; /* Рамка при получении фокуса */
+    width: 80%; /* Ширина поля */ 
+    opacity: 0.7;
+    border-radius: 5px;
+    padding: 5px; 
+    margin-bottom:20px;
+    width:280px;
+    margin-left: 50px;
+    background: rgb(206, 223, 231);
+   }

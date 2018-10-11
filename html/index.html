@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Опрос</title>
+		<link href="../css/style.css" rel="stylesheet" type="text/css">
+		<meta http-equiv = "Content-type" content = "text/html; charset = utf-8">
+		<meta http-equiv="X-UA-Compatible" content ="IE=Edge">
+		<link rel = "stylesheet" href="http://fonts.googleapis.com/css? family=Oswald:400,300" type="text/css">
+        <script src="../script/script.js"></script> 
+    </head>
+    <body>
+<div class="vvod">
+        <div class = "field">
+            <div class="row">
+                    <div class="cell"><label>Имя:</label></div>
+                    <div class="cell"><input class = "input-style" type = "text" name = "name" id = "name_" placeholder="Введите имя" tabindex="1" onfocus="this.className='focus'" onblur="this.className='text'" /></div>
+                   </div> <br>					
+                   <div class="row">  
+                        <div class="cell"><label class="col-2 col-form-label">Фамилиия:</label></div>
+                        <div class="cell"><input class = "input-style" type = "text" name = "surname" id = "surname_" placeholder="Введите фамилию" tabindex="2" onfocus="this.className='focus'" onblur="this.className='text'"/></div>
+                </div><br>
+                <div class="row"> 
+                        <div class="cell"><label class="col-2 col-form-label">E-mail:</label></div>
+                        <div class="cell"><input class = "input-style" type = "email"  name = "email" id = "e-mail" placeholder="Введите e-mail" tabindex="3" onfocus="this.className='focus'" onblur="this.className='text'"/></div>
+               </div>  <br>
+               <div class="row">
+                    <div class="cell"><label class="col-2 col-form-label">Строка доп. ввода:</label></div>
+                    <div class="cell"> <input class = "input-style" type = "text"  name = "dop" id = "dop" tabindex="4" onfocus="this.className='focus'" onblur="this.className='text'"/></div>
+                </div><br>
+<div class="row">
+        <div class="cell"> <select name="select">
+                        <option selected value="s1">Зеленый</option>
+                        <option value="s2">Жёлтый</option>
+                        <option value="s3">Красный</option>
+                        <option value="s4">Синий</option>
+                       </select>
+</div></div>
+                <div class="row1">
+                        <textarea name="comment" class = "textarea-style" tabindex="5" onfocus="this.className='focus'" onblur="this.className='text'"></textarea></div><br>	
+               </div>
+        
+
+
+</div>
+
+
+
+        </body>
+        </html>
