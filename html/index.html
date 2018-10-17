@@ -9,39 +9,37 @@
         <script src="../script/script.js"></script> 
     </head>
     <body>
-<div class="vvod">
-        <div class = "field">
-            <div class="row">
-                    <div class="cell"><label>Имя:</label></div>
-                    <div class="cell"><input class = "input-style" type = "text" name = "name" id = "name_" placeholder="Введите имя" tabindex="1" onfocus="this.className='focus'" onblur="this.className='text'" /></div>
-                   </div> <br>					
-                   <div class="row">  
-                        <div class="cell"><label class="col-2 col-form-label">Фамилиия:</label></div>
-                        <div class="cell"><input class = "input-style" type = "text" name = "surname" id = "surname_" placeholder="Введите фамилию" tabindex="2" onfocus="this.className='focus'" onblur="this.className='text'"/></div>
-                </div><br>
-                <div class="row"> 
-                        <div class="cell"><label class="col-2 col-form-label">E-mail:</label></div>
-                        <div class="cell"><input class = "input-style" type = "email"  name = "email" id = "e-mail" placeholder="Введите e-mail" tabindex="3" onfocus="this.className='focus'" onblur="this.className='text'"/></div>
-               </div>  <br>
-               <div class="row">
-                    <div class="cell"><label class="col-2 col-form-label">Строка доп. ввода:</label></div>
-                    <div class="cell"> <input class = "input-style" type = "text"  name = "dop" id = "dop" tabindex="4" onfocus="this.className='focus'" onblur="this.className='text'"/></div>
-                </div><br>
-<div class="row">
-        <div class="cell"> <select name="select">
+        
+                <form name="myForm" id='testForm' method="post" action='javascript: show();' onsubmit='return validate_form();' target = "_blanck">
+                    <div class="kek">
+                <div class="field">    <label>Имя:</label>
+                    <input class = "input-style" type = "text" name = "name" autofocus id = "name_" placeholder="Введите имя" tabindex="1" onfocus="this.className='focus'" onblur="this.className='text'" />
+                    <br>					
+                        <label class="col-2 col-form-label">Фамилиия:</label>
+                        <input class = "input-style" type = "text" name = "surname" id = "surname_" placeholder="Введите фамилию" tabindex="2" onfocus="this.className='focus'" onblur="this.className='text'"/>
+                <br>
+                       <label class="col-2 col-form-label">E-mail:</label>
+                       <input class = "input-style" type = "email"  name = "email" id = "e-mail" placeholder="Введите e-mail" tabindex="3" onfocus="this.className='focus'" onblur="this.className='text'"/>
+               <br>
+                   <label class="col-2 col-form-label">Строка доп. ввода:</label>
+                   <input class = "input-style" type = "text"  name = "dop" id = "dop" tabindex="4" onfocus="this.className='focus'" onblur="this.className='text'"/>
+                  </div> <br>
+                   <br>
+            <br><select name="select">
                         <option selected value="s1">Зеленый</option>
                         <option value="s2">Жёлтый</option>
                         <option value="s3">Красный</option>
                         <option value="s4">Синий</option>
-                       </select>
-</div></div>
-                <div class="row1">
-                        <textarea name="comment" class = "textarea-style" tabindex="5" onfocus="this.className='focus'" onblur="this.className='text'"></textarea></div><br>	
-               </div>
-        
+                       </select><br><br>
+                        <textarea name="comment" class = "textarea-style" tabindex="5" onfocus="this.className='lol'" onblur="this.className='text'"></textarea><br>	
+                        <br><br>
+               <button class="color-button1" onclick="onclearbutton()" type="reset">Очистить форму</button>
+               <button class="color-button2" onclick="onclearbutton()" type="reset">Очистить форму</button>
+               <button class="color-button3" onclick="onclearbutton()" type="reset">Очистить форму</button></div>
+               </form>
 
 
-</div>
+
 
 
 
