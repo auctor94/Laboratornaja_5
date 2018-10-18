@@ -12,11 +12,12 @@
         
                 <form name="myForm" id='testForm' method="post" action='javascript: show();' onsubmit='return validate_form();' target = "_blanck">
                     <div class="kek">
-                <div class="field">    <label>Имя:</label>
+                <div class="field">    
+                    <div id="items"><label>Имя:</label>
                     <input class = "input-style" type = "text" name = "name" autofocus id = "name_" placeholder="Введите имя" tabindex="1" onfocus="this.className='focus'" onblur="this.className='text'" />
-                    <br>					
+                    </div><br>					
                         <label class="col-2 col-form-label">Фамилиия:</label>
-                        <input class = "input-style" type = "text" name = "surname" id = "surname_" placeholder="Введите фамилию" tabindex="2" onfocus="this.className='focus'" onblur="this.className='text'"/>
+                        <input class = "input-style" type = "text" name = "surname" id = "surname_" placeholder="Введите фамилию" tabindex="2" onfocus="this.className='focus'" onblur="this.className='text'" />
                 <br>
                        <label class="col-2 col-form-label">E-mail:</label>
                        <input class = "input-style" type = "email"  name = "email" id = "e-mail" placeholder="Введите e-mail" tabindex="3" onfocus="this.className='focus'" onblur="this.className='text'"/>
@@ -35,7 +36,7 @@
                         <br><br>
                <button class="color-button1" onclick="onclearbutton()" type="reset">Очистить форму</button>
                <button class="color-button2" onclick="second()" type="button">Добавление в textarea</button>
-               <button class="color-button3" onclick="onclearbutton()" type="reset">Очистить форму</button></div>
+               <button class="color-button3" onclick="AddItem()" type="button" >Что-то сделать.</button></div>
                </form>
 
 

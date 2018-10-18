@@ -44,3 +44,30 @@ function second() {
    
 
 }
+
+
+var check = true;
+
+    function AddItem() {
+        // Создаем элемент ДИВ
+        if (check==true) {
+        var div = document.createElement("div");
+        // Добавляем HTML-контент с пом. свойства innerHTML
+        div.innerHTML = "<input class=\"input-style\" type=\"text\" name=\"thirdadd\" id=\"thirsed\" onfocus=\"this.className='focus'\" onblur=\"this.className='text'\">";
+         
+        // Добавляем новый узел в конец списка полей
+        document.getElementById("items").appendChild(div);
+        document.getElementById("thirsed").setAttribute('disabled', 'disabled');
+     check = false;    
+    }
+
+        var valueFour = document.getElementById('dop').value;
+        var dt=new Date();
+            var day=dt.getDate();
+            var month=dt.getMonth() + 1;
+            var year=dt.getFullYear();
+        var data=' '+day+'.'+month+'.'+year;
+        var allString = valueFour+data;
+        document.getElementById('thirsed').value= allString;
+       
+       }

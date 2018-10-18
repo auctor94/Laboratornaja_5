@@ -94,4 +94,10 @@ body {
     resize: none;
     background: rgb(206, 223, 231);
    }
-   
+   #items > DIV {
+
+    clear:both; 
+	text-align:right; 
+    line-height:25px;
+	
+   }
