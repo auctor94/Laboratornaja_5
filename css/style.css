@@ -29,17 +29,16 @@ body {
 .kek {
  /* для выравнивания полей формы */
         float:left;	
-        padding-left: 25px;
+       
         width: 69.95%;
     text-align:center;
-    background-color: #44a882;
-
+    background-color: #69bb9c;
 	position: relative;
 	margin: 0 auto; 
 	margin-left: 14.9%;
 	padding-top: 30px; 
 	padding-bottom: 20px;
-	margin-top: 20px;
+
     border-radius: 0px 0px 0px 0px;
     border-left: 2px solid #34011e;
     border-top: 2px solid #34011e;
@@ -59,7 +58,7 @@ body {
     margin-left: 50px;
    }
 .focus {
-    border: 3px solid #39c; /* Рамка при получении фокуса */
+    border: 3px solid #39c; /* Рамка при получении фокуса */ 
     width: 80%; /* Ширина поля */ 
     opacity: 0.7;
     border-radius: 5px;
@@ -76,7 +75,7 @@ body {
         width: 150px;
         height: 50px; 
            text-align: center;
-        background: #368564;
+        background: #80cead;
         border: 2px solid #34011e;
         border-radius: 15px 15px 15px 15px;
    }
@@ -94,10 +93,21 @@ body {
     resize: none;
     background: rgb(206, 223, 231);
    }
-   #items > DIV {
 
+   #items > DIV {
     clear:both; 
 	text-align:right; 
     line-height:25px;
-	
    }
+
+header {
+    width: 70%;
+	background:  #39c;
+    height: 90px;
+    margin: 0 auto;
+    text-align: center;
+    border-left: 2px solid #34011e;
+    border-top: 2px solid #34011e;
+    border-right: 2px solid #34011e;
+position: relative;
+}
